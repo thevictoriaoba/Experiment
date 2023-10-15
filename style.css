@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color:#f3f0f0;
+    padding : 20px 8rem 0 8rem ;
+    font-family:  'Cabin', sans-serif;
+    
+}
+
+.header {
+    border-bottom-color:rgb(219, 229, 230);
+    border-style: solid;
+    border-width: 3px;
+    border-left-color:transparent ;
+    border-right-color:transparent ;
+    border-top-color:transparent ;
+    padding-bottom: 30px;
+}
+
+.one {
+    padding-bottom: 20px;
+    
+
+}
+
+.one p {
+   color: #696969;
+   font-size: 16px;
+}
+
+.two {
+    color: #696969;
+   font-size: 12.8px;
+   letter-spacing: 0.8px;
+   line-height: 18px;
+   padding:0 0 20px 10px;
+   height: 60px;
+   border-left-color:#512679;
+   border-style: solid;
+   border-width: 3px;
+   border-bottom-color:transparent ;
+   border-right-color:transparent ;
+   border-top-color:transparent ;
+}
+
+.h1 {
+    color: #432d58;
+    font-family:  'Cabin', sans-serif;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.h1 span {
+    font-size: 16px;
+}
+
+.three {
+    padding: 20px 0 0 0;
+}
+
+.three h4 {
+    color: #512679;
+    letter-spacing: 0.9px;
+    font-size: 16px;
+}
+
+.three p {
+    color: #696969;
+    font-size: 12.8px;
+}
+
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-one {
+    color: #f8f8f8;
+    background-color: #432d58;
+    border: none;
+    padding: 16px 30px 16px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.question {
+    color: #000000;
+    font-size: 19.2px;
+    margin: 40px 0 20px 0;
+}
+
+.question-s {
+    padding: 40px 0 20px 0;
+}
+
+.st, .nd, .rd, .fo, .fi, .si {
+    border:rgb(219, 229, 230);
+    border-style: solid;
+    border-width: 2px;
+    width: 30vw;
+    border-radius: 8px;
+    padding-left: 1rem;
+}
+
+.st h3, .nd h3, .rd h3, .fo h3, .fi h3, .si h3 {
+    padding-top: 15px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.st p, .nd p, .rd p, .fo p, .fi p, .si p {
+    padding-top: 10px;
+    color: #696969;
+    font-size: 14.4px;
+    letter-spacing: 0.8px;
+}
+
+.nd, .fi {
+   padding-bottom:20px ;
+}
+  
+.first-one {
+    display: grid;
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+
+.second-one {
+    display: grid;
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.cur {
+    padding: 50px 0 20px 0;
+}
+
+.cur h2 {
+    color: #000000;
+    font-size: 19.2px;
+}
+
+.curri {
+    background-color: #ffffff;
+    padding: 10px 0 10px 10px;
+    
+}
+
+.curriculum {
+    display: grid;
+    gap: 12px;
+    border-radius: 8px;
+}
+
+.curri h2 {
+    color: #000000;
+    font-size: 16px;
+}
+
+.curri p {
+    color: #808080;
+    font-size: 11.2px;
+}
+
+.curri h4 {
+    font-size: 16px;
+    color: #696969;
+    
+}
+
+.btn-o {
+    margin-top: 20px;
+}
